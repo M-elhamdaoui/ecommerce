@@ -1,0 +1,20 @@
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+     
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#261C15 ;
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    margin-right: 5px;
+    
+}

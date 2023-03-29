@@ -1,0 +1,23 @@
+.product{
+    background-color: #fff;
+    width: 70%;
+    
+    margin: 0.5em;
+    border-radius: 20px;
+    
+    display: flex;
+    align-items: center;
+}
+.image{
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remove{
+   width: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}

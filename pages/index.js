@@ -1,18 +1,20 @@
 import React from 'react'
+import {Banner , Footer,Category,Navbar} from "../components"
 
 function Index() {
   return (
     <>
-      hero banner
-      <div className='products-heading' >
+    <Navbar/>
+      <Banner/>
+      <div className='container' >
         <h1>Category</h1>
         <h2>Some categories</h2>
       </div>
-      <div  className='products-container' >
+      <div  className='container' >
         <h1>Promo of the week</h1>
         <h2>Product</h2>
       </div>
-      footer banner
+      <Footer/>
     </>
   )
 }

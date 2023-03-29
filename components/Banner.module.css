@@ -1,0 +1,148 @@
+.container{
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    
+}
+.banner{
+    width: 100%;
+
+    height: 85vh;
+    background: linear-gradient(98.97deg, #C33325 8.03%, #F19722 105.21%);
+border-radius: 58.4126px;
+
+}
+.bannerContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 40%;
+    position: relative;
+    height: 100%;
+}
+.void{
+    z-index: 6;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.back1{
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    transform: translate(20px,-50%);
+}
+.back1>img{
+    height: 100%;
+    width: auto;
+}
+.back2{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: -100px;
+    transform: translate(10px,-55%);
+    
+}
+.back2 > img{
+    height: 659.78px  ;
+    width: auto;
+    transform: rotate(28.37deg);
+}
+.back3{
+       position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%,-50%); 
+}
+.back3 >img{
+    height:502px ;
+    width: auto;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-right: 20px;
+   
+
+}
+.right > h1{
+    font-size: 4em;
+}
+.right >h1 >span{
+    color: #F0F1D5;
+}
+.right > p{
+    font-size: 1.5em;
+    text-align: start;
+    align-self: flex-start;
+}
+.link{
+    margin-top: 20%;
+    align-self: flex-end;
+    background: #204370;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:900px) {
+    .container{
+        overflow: hidden;
+        height: 100vh;
+    }
+      .banner{
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+      }
+        .bannerContainer{
+            flex-direction: column;
+           height: 100%;
+           
+        }
+        .back2{
+            display: none;
+        }
+        .back3{
+            width: 100%;
+            top: 50%;
+            left: -5%;
+            transform: translate(-50%,-50%); 
+        }
+        .left{
+            height: 70%;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .right{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .right >h1{
+            font-size: 3em;
+        }
+}
