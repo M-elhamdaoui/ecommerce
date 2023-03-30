@@ -19,7 +19,7 @@ function Banner() {
               <Image src={back2} alt="guitar" />
             </div>
             <div className={styles.back3} >
-              <Image src={back3} alt="headphone" />
+              <Image priority src={back3} alt="headphone" />
             </div>
           </div>
           <div className={styles.right} >

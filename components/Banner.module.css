@@ -38,6 +38,7 @@ border-radius: 58.4126px;
     transform: translate(-50% , -50%);
 }
 .back1{
+    height: 100%;
     position: absolute;
     top: 50%;
     left: -60px;
@@ -56,19 +57,21 @@ border-radius: 58.4126px;
     
 }
 .back2 > img{
-    height: 659.78px  ;
+    max-height: 659.78px  ;
     width: auto;
     transform: rotate(28.37deg);
 }
 .back3{
+    width: 100%;
        position: absolute;
     z-index: 3;
     top: 50%;
     left: 50%;
     transform: translate(-15%,-50%); 
+  
 }
 .back3 >img{
-    height:502px ;
+    max-height:502px ;
     width: auto;
 }
 
@@ -107,7 +110,7 @@ border-radius: 58.4126px;
 @media screen and (max-width:900px) {
     .container{
         overflow: hidden;
-        height: 100vh;
+        height: 90vh;
     }
       .banner{
         width: 100%;
@@ -123,15 +126,18 @@ border-radius: 58.4126px;
             display: none;
         }
         .back3{
-            width: 100%;
+           width: auto;
             top: 50%;
-            left: -5%;
+            left: 50%;
             transform: translate(-50%,-50%); 
         }
         .left{
+            width: 100%;
             height: 70%;
-            justify-content: flex-start;
-            align-items: flex-start;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
         }
         .right{
             width: 100%;
@@ -144,5 +150,8 @@ border-radius: 58.4126px;
         }
         .right >h1{
             font-size: 3em;
+        }
+        .link{
+            margin-top: 5%;
         }
 }

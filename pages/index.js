@@ -6,10 +6,7 @@ function Index() {
     <>
     <Navbar/>
       <Banner/>
-      <div className='container' >
-        <h1>Category</h1>
-        <h2>Some categories</h2>
-      </div>
+      <Category/>
       <div  className='container' >
         <h1>Promo of the week</h1>
         <h2>Product</h2>
