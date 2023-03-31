@@ -1,0 +1,69 @@
+.productDesc{
+    margin-top: 20px;
+    max-width: 367px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;  
+    align-self: flex-start;  
+}
+
+.inStock{
+    background:#2BD999 ;
+    width: 154px;
+    padding: 5px 10px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.outStock{
+    background:#d9452b ;
+    width: 154px;
+    padding: 5px 10px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.prices{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+.oldPrice{
+    text-decoration:line-through  #d9452b ;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addCart{
+    background: #2176D9;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.buttons>a{
+    color: #2BD999;
+    font-weight: 700;
+}
+@media screen and (max-width:900px) {
+    .productDesc{
+        align-self: center; 
+    }
+}

@@ -1,19 +1,19 @@
 import React from 'react'
-import {Banner , Footer,Category,Navbar} from "../components"
+import {Banner , Footer,Category,Navbar, Product} from "../components"
 
 function Index() {
   return (
     <>
-    <Navbar/>
-      <Banner/>
-      <Category/>
-      <div  className='container' >
-        <h1>Promo of the week</h1>
-        <h2>Product</h2>
+      <Navbar />
+      <Banner />
+      <Category />
+      <div className='container promo'>
+        <h1>PROMO OF THE WEEK</h1>
       </div>
-      <Footer/>
+      <Product />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Index
